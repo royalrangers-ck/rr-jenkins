@@ -67,7 +67,7 @@ sudo sh "$SCRIPT_PATH"
 3. Add exec command, e.g.:
 
 ```
-printf "\Show list of containers\n"
+printf "\nShow list of containers\n"
 docker ps -a
 echo "Done!"
 ```
@@ -79,11 +79,10 @@ echo "Done!"
 ```
 
 ```
-printf "\Check swap & memory\n"
+printf "\nCheck swap & memory\n"
 free -h
 echo "Done!"
 ```
-
 
 
 
